@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Project CloudComputing</title>
+     
+    <!-- Fonts  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+
+<!-- Feather Icon -->
+ <script src="https://unpkg.com/feather-icons"></script>
+<!-- My Style -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+<body>
+     <script>
+        // Cek status login di sessionStorage
+        if (!sessionStorage.getItem('loggedIn') || sessionStorage.getItem('loggedIn') !== 'true') {
+            // Jika belum login, redirect ke login.html
+            window.location.href = 'login.html';
+        }
+    </script>
+
+    <!-- Navbar Start -->
+     <nav class="navbar">
+        <a href="#" class="navbar-logo">Our Project<span> CloudComputing</span>.</a>
+
+        <div class="navbar-nav">
+            <a href="#home">Home</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        
+        <div class="navbar-extra">
+            <a href="#" id="search"><i data-feather="search"></i></a>
+            <a href="#" id="home-icon"><i data-feather="home"></i></a>
+            <a href="#" id="menu-extra"><i data-feather="menu"></i></a>
+        </div>
+     </nav>
+    <!-- Navbar End -->
+
+     <!-- Hero Section Start-->
+      <section class="hero" id="home">
+        <main class="content">
+            <h1>Inilah Project <span>Kelompok Kami</span></h1>
+            <p>Ini adalah project Tugas Besar Kami pada Mata kuliah Cloud Computing</p>
+            <a href="#project" class="cta">Lihat Project Kami</a>
+        </main>
+      </section>
+      <!-- Hero Section end -->
+
+      <!-- About Section Start -->
+       <section id="about" class="about">
+        <h2><span>Tentang</span>  Kami</h2>
+
+
+        </div>
+        <div class="content">
+            <h3>Mahasiswa S1 Teknik Telekomunikasi</h3>
+            <p>Kami adalah Mahasiswa Telkom University, Semester 7. Project ini Kami buat untuk memenuhi tugas Cloud Computing.Kami mengenal satu sama lain mulai dari kami masuk Telkom University, Hingga saat ini kami masih berjuang Untuk lulus bersama
+            </p>
+        <h2>Anggota<span> Tim</span></h2>
+    <p>Dengan bangga memperkenalkan:</p>
+    <div class="team-container">
+        <!-- Anggota Tim 1 -->
+        <div class="team-member">
+            <img src="img/about.noval.jpg" alt="Noval Tri Ananda Rizki">
+            <h3>Noval Tri Ananda Rizki</h3>
+            <p>novaltriananda12
+                @gmail.com</p>
+            <p>Instagram: @nvltrandrz</p>
+        </div>
+
+        <!-- Anggota Tim 2 -->
+        <div class="team-member">
+            <img src="img/andrew.jpeg" alt="Andrew Kacaribu">
+            <h3>Andrew Kacaribu</h3>
+            <p>Andrew Kacaribu</p>
+            <p>Instagram: @ndrew.krb</p>
+        </div>
+
+        <!-- Anggota Tim 3 -->
+        <div class="team-member">
+            <img src="img/rukshah.jpeg" alt="Mohammed Rukshah Aryaguna">
+            <h3>Mohammed Rukshah Aryaguna</h3>
+            <p>Mohammed Rukshah Aryaguna</p>
+            <p>Instagram: @rukshah.ramadhan</p>
+        </div>
+
+        <!-- Anggota Tim 4 -->
+        <div class="team-member">
+            <img src="img/jhon.jpeg" alt="Jhon Munthe">
+            <h3>Jhon Munthe</h3>
+            <p>Jhon Munthe</p>
+            <p>Instagram: @jhonmunthe_</p>
+        </div>
+
+        </div>
+
+       </section>
+       <!-- About Section End -->
+
+       <!-- Project Section Start -->
+       <section id="project" class="project">
+        <h2><span>Project</span> Kami</h2>
+        <p>Project kami ini adalah bagian dari tugas matakuliah CloudComputing , mengenai Deteksi anggaran APBN pada tahun 2030, Menggunagan Model AI LSTM.</p>
+        <main class="project-button">
+        <a href="project" class="cta">Project</a>
+        </main>
+
+       </section>
+       <!-- Project Section end -->
+
+
+       <!-- Contact Section Start -->
+       <section id="contact" class="contact">
+         <h2><span>Hubungi</span> Kami</h2>
+        <p>Telkom University, Jl. Telekomunikasi No. 1, Bandung Terusan Buahbatu </p>
+
+        <div class="row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.304493095565!2d107.62776570987621!3d-6.973357268251903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e9adf177bf8d%3A0x437398556f9fa03!2sUniversitas%20Telkom!5e0!3m2!1sid!2sid!4v1734292527200!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"class="map"></iframe>
+
+            <form action="">
+                <div class="input-group">
+                    <i data-feather="user"></i>
+                    <input type="text"
+                    placeholder="nama">
+                </div>
+                  <div class="input-group">
+                    <i data-feather="mail"></i>
+                    <input type="text"
+                    placeholder="email">
+                </div>
+                  <div class="input-group">
+                    <i data-feather="phone"></i>
+                    <input type="text"
+                    placeholder="nohp">
+                </div>
+                <button type="submit" class="btn">kirim pesan</button>
+            </form>
+        </div>
+       </section>
+
+       <!-- Contact Section Start -->
+
+    <!-- Feather Icon -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My JavaScript -->
+     <script src="js/script.js"></script>
+</body>
+</html>
